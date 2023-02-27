@@ -216,6 +216,30 @@
 	
 }
 
+	ul {
+	 list-style-type: none;
+	 width: 75%;
+    	 margin: 0 auto;
+	  overflow: hidden;
+	  align: center;
+	}
+
+	li {
+	  float: left;
+	}
+	li a {
+
+	  display: block;
+	  color: green;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	}
+
+	li a:hover {
+	  background-color: #111;
+	}		  
+	    
 		  
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -314,6 +338,14 @@
 </head>
 <body  onload="reemplazarImagen()">
 
+<ul>
+  <li><a class="active" href="#Extracto">Extracto</a></li>
+  <li><a href="#Estudios">Estudios</a></li>
+  <li><a href="#Experiencias">Experiencias/a></li>
+</ul>	
+	
+	
+	
   <div class="container">
     <div class="personal-info">
 
@@ -324,6 +356,7 @@
     </div>
 	
 <div class="Tipografia">
+	<a name="Extracto"></a>
       <h3>Extracto</h3>
       <p>Actualemente estoy intentando cambiar de carrera y reconvertirme en tecnologia.</p>
       <p>Soy una persona activa que intenta buscar el lado positivo a las cosas.</p>
@@ -332,7 +365,7 @@
 </div>
 
 <hr>
-
+<a name="Estudios"></a>
 <section id="lista">
   <h3>Estudios</h3>
   <ul>
@@ -349,7 +382,7 @@
 
 
 <hr>
-
+<a name="Experiencias"></a>
 	  
 <section id="lista">
   <h3>Experiencia laborales</h3>
