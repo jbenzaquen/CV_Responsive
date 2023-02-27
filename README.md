@@ -8,7 +8,7 @@ CV Responsive donde practique y aprendi varias cosas
     CSS y JS sin framework y como hacer comentarios
     Hypervinculos
     Imagenes
-    Boton que se oculta automaticaticamente al Imprimir
+    Boton que se oculta automaticamente al Imprimir
     Uso de evento onload
     Titulo
     etc
