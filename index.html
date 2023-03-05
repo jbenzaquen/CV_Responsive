@@ -12,18 +12,19 @@
 		 JS basico sin framework
 		 Google fonts para el nombre de la persona del CV
 		 Lista desordenada
-	  	 Oculta boton Imprimir cuando va a imprimir
+	  	 Oculta boton Imprimir y primer parrafo al imprimir
 		 Titulo
-		 Imagenes
+		 Imagenes fijas y aleatorias
+	  	 Gradiente suave de colores
 		 Botones
 	  	 Hypervinculo
 		 Invocacion a Impresora predeterminada
 		 Cambio de forma de cursor
 		 Cambio formato de bullet
 		 Cambia layout segun tamaño de pantalla
-	  	 Saltar a seccion determinado
+	  	 Saltar a seccion determinada
 		 Hoja de estilo primero mobile
-		 Algunos comentarios
+		 Comentarios
  */
     /* Estilos para dispositivos pequeños */
     @media only screen and (max-width: 767px) {
@@ -40,27 +41,28 @@
       .personal-info {
         text-align: center;
         margin-bottom: 20px;
-		background-color:#33475b;
+	background-color: #33475b;
+	background-image: linear-gradient(19deg, #33475b 0%, #666666 100%);
       }
 
       .personal-info h2 {
         font-family: 'Mynerve', cursive;
-		font-size: 24px;
-		color: azure ;
-		font-style: italic;
+	font-size: 24px;
+	color: azure ;
+	font-style: italic;
       }
 
       .personal-info p {
         font-size: 16px;
-		color: azure;
-		margin-left: 5%;
-		line-height: 28px;
+	color: azure;
+	margin-left: 5%;
+	line-height: 28px;
       }
 
       #lista h3 {
         font-size: 18px;
         margin-bottom: 5px;
-		font-style: italic;
+	font-style: italic;
       }
 
 	hr { 
@@ -86,24 +88,24 @@
       .Tipografia h3 {
         font-size: 18px;
         margin-bottom: 5px;
-		font-style: italic;
+	font-style: italic;
       }
 
       .Tipografia p {
         font-size: 16px;
-		margin-left: 5%;
+	margin-left: 5%;
       }
 	  
   #print-button {
       align-items: center;
-	  background-color: white;
-	  color: black;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 16px;
-	  margin: 2px 1px;
-	  cursor: pointer;
+	background-color: white;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 1px;
+	cursor: pointer;
 	}
 	
 	.botones {
@@ -113,6 +115,14 @@
 	  height: 100px;
 	}
 	
+	 .superior {
+          width: 75%;
+          margin: 0 auto;
+	  padding-left: 5px;
+	  color: gray;
+	  text-align: center;
+	  padding: 5px 5px;
+	}
    }
    
     /* Estilos para dispositivos grandes */
@@ -134,7 +144,8 @@
         justify-content: space-between;
         align-items: center;
         margin-bottom: 20px;
-		background-color:#33475b;
+	background-color: #33475b;
+	background-image: linear-gradient(19deg, #33475b 0%, #666666 100%);
       }
 
       .personal-info h2 {
@@ -216,10 +227,10 @@
 }
 
 	 .superior {
-     width: 75%;
-      margin: 0 auto;
+          width: 75%;
+          margin: 0 auto;
 	  padding-left: 5px;
-	  color: green;
+	  color: gray;
 	  text-align: center;
 	  padding: 5px 5px;
 	}
@@ -237,12 +248,12 @@
         width: 80%;
         margin: 0 auto;
       }
-	  .circular {
-	    margin-left: 10px;
-		margin-top: 10px;
-		margin-bottom: 10px;
-		border-radius: 50%;
-		border:2px solid #666;
+	.circular {
+	   margin-left: 10px;
+	   margin-top: 10px;
+	   margin-bottom: 10px;
+	   border-radius: 50%;
+	   border:2px solid #666;
 	  }
 		
       .personal-info {
@@ -264,16 +275,16 @@
 
       .personal-info p {
         font-size: 18px;
-		color: azure;
-		margin-left: 5%;
-		margin-right: 5%;
-	        line-height: 28px;
+	color: azure;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 28px;
       }
 
       #lista h3 {
         font-size: 24px;
         margin-bottom: 10px;
-		font-style: italic;
+	font-style: italic;
       }
 
 	hr { 
