@@ -8,7 +8,7 @@ CV Responsive donde practique y aprendi varias cosas
 		 Boton Imprimir con Style propio
 		 Cambio de forma de cursor sobre boton
 		 Invocacion a Impresora predeterminada
-	  	 Oculta boton Imprimir y primer parrafo al imprimir, no imprime fondo de color
+	  	 No imprime fondo de color, oculta boton Imprimir y primer parrafo al imprimir
 		 Titulo
                  Favicon personalizado hecho en https://favicon.io/favicon-generator/ (citar a la fuente)
 		 Imagenes fijas y aleatorias consumiendo una API https://randomuser.me/api/
