@@ -10,8 +10,9 @@ CV Responsive donde practique y aprendi varias cosas
 		 Invocacion a Impresora predeterminada
 	  	 No imprime fondo de color, oculta boton Imprimir y primer parrafo al imprimir
 		 Titulo
-                 Favicon personalizado hecho en https://favicon.io/favicon-generator/ (citar a la fuente)
+                 Favicon personalizado hecho en https://favicon.io/favicon-generator/
 		 Imagenes fijas y aleatorias consumiendo una API https://randomuser.me/api/
+		 Iconos de Fontawesome
 	  	 Gradiente suave de colores en header
 	  	 Hypervinculos para saltar a area determinada
 		 Cambio formato de bullet
