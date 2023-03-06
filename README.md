@@ -14,7 +14,7 @@ CV Responsive donde practique y aprendi varias cosas
 		 Imagenes fijas y aleatorias consumiendo una API https://randomuser.me/api/
 		 Iconos de Fontawesome
 	  	 Gradiente suave de colores en header
-	  	 Hypervinculos para saltar a area determinada
+	  	 Hypervinculos para saltar a area determinada con movimiento suve
 		 Cambio formato de bullet
 		 Cambia layout segun tamaño de pantalla
 		 Hoja de estilo primero mobile
