@@ -1,4 +1,7 @@
 # CV_Responsive
+
+https://jbenzaquen.github.io/CV_Responsive/
+
 CV Responsive donde practique y aprendi varias cosas
 
 		 CSS basico sin framework
