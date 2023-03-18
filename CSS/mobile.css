@@ -1,1 +1,103 @@
 
+.container {
+        width: 100%;
+        margin: 0 auto;
+      }
+	 .circular {
+		margin-top: 10px;
+		border-radius: 50%;
+		border:2px solid #666;
+	  }
+
+      .personal-info {
+        text-align: center;
+        margin-bottom: 20px;
+	background-color: #33475b;
+	background-image: linear-gradient(19deg, #33475b 0%, #666666 100%);
+      }
+
+      .personal-info h2 {   
+        font-family: 'Special Elite';
+	font-size: 28px;
+	color: azure ;
+	font-style: italic;
+      }
+
+      .personal-info p {
+        font-size: 16px;
+	color: azure;
+	margin-left: 5%;
+	line-height: 28px;
+      }
+
+      #lista h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+	font-style: italic;
+      }
+
+	hr { 
+		width: 90%;
+	}
+	    
+	#lista ul {
+	  list-style: none;
+	  margin-left:1%;
+	  padding: 0;
+	  list-style-type: square; /* cambia el tipo de bullet por cuadrados */
+	}
+
+	#lista li {
+	  margin-left:5%;
+	  margin-bottom: 20px;
+	}
+
+      .Tipografia {
+        margin-bottom: 20px;
+      }
+
+      .Tipografia h3 {
+        font-size: 18px;
+        margin-bottom: 5px;
+	font-style: italic;
+      }
+
+      .Tipografia p {
+        font-size: 16px;
+	margin-left: 5%;
+      }
+	  
+  #print-button {
+      align-items: center;
+	background-color: white;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+	display: flex;
+	align-items:center;  
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+	}
+	
+	.botones {
+	  display: flex;
+	  justify-content: center;
+	  align-items: center;
+	  height: 100px;
+	}
+	
+	 .superior {
+          width: 98%;
+          margin: 0 auto;
+	  padding-left: 3px;
+	  color: gray;
+	  text-align: center;
+	  padding: 5px 5px;	 
+	}
+	    
+	html {
+          scroll-behavior: smooth;
+	}
+
+   
